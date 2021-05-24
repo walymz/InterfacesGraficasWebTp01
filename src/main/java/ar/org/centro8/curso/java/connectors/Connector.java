@@ -28,25 +28,16 @@ public class Connector {
     private static String user="freedbtech_negocioRopaWeb";
     private static String pass="centro8";
     private static String params="";  
-    
-  /*      
-    ///////////// REMOTA BD POSTGRE ///////////////  
-    private static String server="tuffi.db.elephantsql.com";
+    /*
+    ///////////// REMOTA POSTGRE BD NEGOCIOROPAWEB:////////////
+    private static String server="motty.db.elephantsql.com";
     private static String port="5432";
-    private static String db="gdyhittm";
-    private static String user="gdyhittm";
-    private static String pass="3pJiSBDlGj5FbzcM-gTRP4y_NIu81RJg"
+    private static String db="ebqvseru";
+    private static String user="ebqvseru";
+    private static String pass="O1d_3PdcBcQI5QcTkGW9ePfJOTR9dNvy";
     private static String params="";  
     
-   /////////// REMOTA FREEDB BD COLEGIO://////////// 
-    private static String server="freedb.tech";
-    private static String port="3306";
-    private static String db="freedbtech_colegio";
-    private static String user="freedbtech_colegio";
-    private static String pass="colegio";
-    private static String params="";
-    
-    
+ /* 
     ///////////// BD LOCAL ///////////////
     
     private static String server="localhost";

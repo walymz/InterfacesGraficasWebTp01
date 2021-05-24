@@ -26,11 +26,10 @@
          <h1>Mantenimiento de Artículos</h1>
      </div>  
      <div class="container">
-       <div class="card">
-         <div class="card-body bg-light">
-           <h5 class="card-title">Nuevo artículo:</h5>
-              <div class="card-body d-grid gap-2 d-md-flex justify-content-center">
-                    <form class="row g-5">
+       <div class="card bg-light">
+           <h5 class="card-title principal">Nuevo artículo:</h5>
+              <div class="card-body d-grid gap-2 pb-0 d-md-flex justify-content-center">
+                    <form class="row g-3">
                         <div class="col-4"> 
                             <input type="text" class="form-control" id="descripcion" name="descripcion" minlength="3" maxlength="20" placeholder="Descripción" aria-label="Descripcion" required>
                             <div class="invalid-feedback">
@@ -100,16 +99,14 @@
                              <div class="invalid-feedback">
                               Por favor seleccione una temporada.
                             </div>
+                        </div>
+                        <div class="d-grid mt-3 gap-2 d-md-flex justify-content-center boton">
+                            <button class="btn btn-success btn-lg" type="submit">Aceptar</button>
+                            <button class="btn btn-success btn-lg" type="reset">Borrar</button>
                         </div>   
-                        <div class="card-footer">
-                            <div class="d-grid gap-2 d-md-flex justify-content-center boton">
-                                <button class="principal btn btn-success btn-lg" type="submit">Aceptar</button>
-                                <button class="principal btn btn-success btn-lg" type="reset">Borrar</button>
-                            </div>   
-                        </div> 
                     </form>   
                  </div>     
-              </div>      
+                   
            </div>
          
            <%        

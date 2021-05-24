@@ -1,7 +1,7 @@
 .jumbotron{
     background-color: cadetblue;
     color: black;
-    height: 90px;
+    height: 80px;
     margin: 0;
     padding-top: 10px;
     
@@ -12,10 +12,14 @@ body{
 }
 
 .principal{
-    margin: 20px;
-    margin-bottom: 0px;
+   margin: 10px;
+   color: #505150;
  }
-
+ .botones{
+     background-color: lavender;
+     border: 1px;
+     border-color: gainsboro;
+ }
 container{
     background-color: cornsilk;
 }
